@@ -24,8 +24,8 @@ class Department {
 public class DepartmentDatabase {
 
     private static final String JDBC_URL = "jdbc:mysql://localhost:3306/departments";
-    private static final String USERNAME = "root";
-    private static final String PASSWORD = "Teja@7075";
+    private static final String USERNAME = "username";
+    private static final String PASSWORD = "password";
 
     public static void main(String[] args) {
         Department department1 = new Department(1, "HR");
